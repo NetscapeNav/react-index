@@ -1,11 +1,11 @@
-import New from "./new"
 import Projects from "./projects";
+import "./main.css";
 
 export default function Main() {
     return (
         <>
-            <New />
-            <Projects />
+            <h1 className="Main-header">Наши проекты</h1>
+            <Projects/>
         </>
     )
 }

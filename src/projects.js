@@ -1,3 +1,10 @@
-export default function Projects() {
-    return null;
+import "./projects.css";
+
+function Projects() {
+    return (
+        ""
+    );
 }
+
+
+export default Projects;

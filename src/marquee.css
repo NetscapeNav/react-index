@@ -1,0 +1,20 @@
+.Marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.Marquee-content {
+    display: inline-block;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Marquee-content {
+        animation: marquee-scroll 10s linear infinite;
+    }
+}
+
+@keyframes marquee-scroll {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}

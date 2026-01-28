@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
 .App {
-  text-align: center;
+  background-color: #002;
+  color: #d9d9d9;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
 }
 
 .App-logo {
